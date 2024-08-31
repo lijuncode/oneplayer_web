@@ -7,8 +7,8 @@ export default hopeTheme({
   hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "OnePlayer",
+    url: "https://apps.apple.com/cn/app/id1614115295",
   },
 
   iconAssets: "fontawesome-with-brands",

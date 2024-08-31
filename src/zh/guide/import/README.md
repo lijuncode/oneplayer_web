@@ -1,7 +1,6 @@
 ---
-title: 使用指南
+title: 如何导入歌曲
 index: false
-icon: lightbulb
 category:
   - 使用指南
 ---
