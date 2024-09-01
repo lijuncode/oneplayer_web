@@ -203,27 +203,27 @@ highlights:
     # bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
     highlights:
       - title: Wi-Fi导入
-        icon: window-maximize
+        # icon: window-maximize
         details: 将手机和电脑连接同一个wifi网络，就可以很方便地导入歌曲
         link: https://theme-hope.vuejs.press/zh/guide/layout/navbar.html
 
       - title: 数据线导入
-        icon: fas fa-window-maximize fa-rotate-270
+        # icon: fas fa-window-maximize fa-rotate-270
         details: 没有wifi，也可以使用数据线导入
         link: https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html
 
       - title: 从“文件”App导入
-        icon: fas fa-window-maximize fa-rotate-270
+        # icon: fas fa-window-maximize fa-rotate-270
         details: 可以直接导入手机本地“文件”App中的音乐
         link: https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html
 
       - title: 导入手机本地iTunes/iPod音乐库的本地音乐
-        icon: person-chalkboard
+        # icon: person-chalkboard
         details: 支持导入手机本地iTunes/iPod音乐库的本地音乐
         link: https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html 
 
       - title: 通过AirDrop导入
-        icon: object-group
+        # icon: object-group
         details: 支持导入通过AirDrop分享的音乐
         link: https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html 
 
@@ -242,10 +242,23 @@ highlights:
     #     details: RTL 布局，打印支持，全局按钮等
     #     link: https://theme-hope.vuejs.press/zh/guide/interface/others.html
 
-  - header: 新功能
+  - header: 管理你的曲库
+    image: /assets/image/manager-music-library.png
+    # description: 支持导入歌曲、创建歌单、管理本地歌曲、导入外部音乐库等
+    highlights:
+      - title: 多种列表
+        details: 支持按歌曲、专辑、播放列表、艺人，文件等类型展示管理播放你的所有本地音乐
+      - title: 多种排序方式
+        details: 可以按歌名、歌手名、专辑名、导入时间、播放次数、最近播放等进行排序
+      - title: 支持编辑歌曲信息
+        details: 支持编辑修改歌名、歌手、专辑、封面、歌词，以及其它更多歌曲标签信息
+      - title: Ai匹配封面、自动匹配封面
+        # details: 播放管理你的所有本地音乐，显示歌名、歌手、专辑名
+
+  - header: 更多功能
     image: /assets/image/features.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
+    # bgImage: https://theme-hope-assets.vuejs.press/bg/1-light.svg
+    # bgImageDark: https://theme-hope-assets.vuejs.press/bg/1-dark.svg
     features:
       - title: 目录页面
         icon: network-wired
@@ -282,57 +295,57 @@ highlights:
         details: 像相册一样允许你浏览、缩放并分享你的页面图片
         link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
 
-  - header: 博客
-    description: 通过主题创建个人博客
-    image: /assets/image/blog.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
-    highlights:
-      - title: 博客功能
-        icon: blog
-        details: 通过文章的日期、标签和分类展示文章
-        link: https://theme-hope.vuejs.press/zh/guide/blog/intro.html
+  # - header: 博客
+  #   description: 通过主题创建个人博客
+  #   image: /assets/image/blog.svg
+  #   bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
+  #   bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
+  #   highlights:
+  #     - title: 博客功能
+  #       icon: blog
+  #       details: 通过文章的日期、标签和分类展示文章
+  #       link: https://theme-hope.vuejs.press/zh/guide/blog/intro.html
 
-      - title: 博客主页
-        icon: home
-        details: 全新博客主页
-        link: https://theme-hope.vuejs.press/zh/guide/blog/home.html
+  #     - title: 博客主页
+  #       icon: home
+  #       details: 全新博客主页
+  #       link: https://theme-hope.vuejs.press/zh/guide/blog/home.html
 
-      - title: 博主信息
-        icon: home
-        details: 自定义名称、头像、座右铭和社交媒体链接
-        link: https://theme-hope.vuejs.press/zh/guide/blog/blogger.html
+  #     - title: 博主信息
+  #       icon: home
+  #       details: 自定义名称、头像、座右铭和社交媒体链接
+  #       link: https://theme-hope.vuejs.press/zh/guide/blog/blogger.html
 
-      - title: 时间线
-        icon: home
-        details: 在时间线中浏览和通读博文
-        link: https://theme-hope.vuejs.press/zh/guide/blog/timeline.html
+  #     - title: 时间线
+  #       icon: home
+  #       details: 在时间线中浏览和通读博文
+  #       link: https://theme-hope.vuejs.press/zh/guide/blog/timeline.html
 
-  - header: 高级
-    description: 增强站点与用户体验的高级功能
-    image: /assets/image/advanced.svg
-    bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
-    bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
-    highlights:
-      - title: SEO 增强
-        icon: dumbbell
-        details: 将最终生成的网页针对搜索引擎进行优化。
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/seo.html
+  # - header: 高级
+  #   description: 增强站点与用户体验的高级功能
+  #   image: /assets/image/advanced.svg
+  #   bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
+  #   bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
+  #   highlights:
+  #     - title: SEO 增强
+  #       icon: dumbbell
+  #       details: 将最终生成的网页针对搜索引擎进行优化。
+  #       link: https://theme-hope.vuejs.press/zh/guide/advanced/seo.html
 
-      - title: Sitemap
-        icon: sitemap
-        details: 自动为你的网站生成 Sitemap
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/sitemap.html
+  #     - title: Sitemap
+  #       icon: sitemap
+  #       details: 自动为你的网站生成 Sitemap
+  #       link: https://theme-hope.vuejs.press/zh/guide/advanced/sitemap.html
 
-      - title: Feed 支持
-        icon: rss
-        details: 生成你的 Feed，并通知你的用户订阅它
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/feed.html
+  #     - title: Feed 支持
+  #       icon: rss
+  #       details: 生成你的 Feed，并通知你的用户订阅它
+  #       link: https://theme-hope.vuejs.press/zh/guide/advanced/feed.html
 
-      - title: PWA 支持
-        icon: mobile-screen
-        details: 让你的网站更像一个 APP
-        link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
+  #     - title: PWA 支持
+  #       icon: mobile-screen
+  #       details: 让你的网站更像一个 APP
+  #       link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
 
 copyright: false
 footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-至今 Mr.Hope
