@@ -365,10 +365,10 @@ footer:  版权所有 © 2019-2024 OnePlayer
 </div>
 
 <!-- 添加底部元素 -->
-<div style="display: flex; justify-content: space-around; padding: 20px 0; color: var(--text-color);">
-
-  <div>
-    <img src="/logo.png" alt="Logo" style="width: 100px;">
+<div class="footer">
+  <div class="footer-logo">
+    <img src="/logo.png" alt="Logo" style="width: 50px;">
+    <span class="footer-logo-text">OnePlayer</span>
   </div>
 
   <div>
@@ -430,6 +430,36 @@ footer:  版权所有 © 2019-2024 OnePlayer
     --text-color: {{ $isDarkMode ? 'white' : 'black' }};
   }
 
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    color: var(--text-color);
+    flex-wrap: wrap;
+    align-items: flex-start; /* 顶对齐 */
+  }
+
+  .footer-logo {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-logo-text {
+    margin-left: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  @media (min-width: 600px) {
+    .footer-logo {
+      width: auto;
+      text-align: left;
+      margin-bottom: 0;
+    }
+  }
 </style>
 
 <style>
