@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: Home
-heroImage: /assets/image/hero-image.png
+heroImage: /assets/image/oneplayer-product.png
 # bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 # bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
@@ -348,7 +348,7 @@ highlights:
   #       link: https://theme-hope.vuejs.press/zh/guide/advanced/pwa.html
 
 copyright: false
-footer: 使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-至今 Mr.Hope
+footer:  版权所有 © 2019-2024 OnePlayer
 ---
 
 这是项目主页的案例。你可以在这里放置你的主体内容。
