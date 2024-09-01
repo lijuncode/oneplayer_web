@@ -11,7 +11,7 @@
       align-items: center;
       // 移除min-height，使用固定的padding来控制间距
       padding-top: 50pt;
-      padding-bottom: 50pt;
+      padding-bottom: 20pt;
       position: relative;
   
       &::after {
@@ -46,13 +46,13 @@
       width: 100%; // 设置宽度为100%
       object-fit: contain; // 保持图片比例
       // 使用固定的margin来控制间距
-      margin: 2rem auto 50pt;
+      margin: 2rem auto 20pt;
   
       // 移除媒体查询中的margin调整
   
-      @media (max-width: hope-config.$mobile) {
-        max-height: 300px; // 为移动设备设置最大高度
-      }
+    //   @media (max-width: hope-config.$mobile) {
+    //     max-height: 300px; // 为移动设备设置最大高度
+    //   }
     }
   
     &-title {
