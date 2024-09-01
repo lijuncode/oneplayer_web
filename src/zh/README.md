@@ -152,7 +152,7 @@ highlights:
 
     #   - title: Kotlin 交互演示支持
     #     icon: fab fa-kickstarter
-    #     details: 响应式的 Kotlin 演示
+    #     details: 响应式 Kotlin 演示
     #     link: https://theme-hope.vuejs.press/zh/guide/markdown/code/kotlin-playground.html
 
     #   - title: Vue 交互演示支持
@@ -216,9 +216,9 @@ highlights:
         details: 没有wifi，也可以使用数据线导入
         link: https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html
 
-      - title: 从“文件”App导入
+      - title: 从"文件"App导入
         # icon: fas fa-window-maximize fa-rotate-270
-        details: 可以直接导入手机本地“文件”App中的音乐
+        details: 可以直接导入手机本地"文件"App中的音乐
         link: https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html
 
       - title: 导入手机本地iTunes/iPod音乐库的本地音乐
@@ -353,10 +353,99 @@ highlights:
 
 copyright: false
 footer:  版权所有 © 2019-2024 OnePlayer
+
 ---
 
-这是项目主页的案例。你可以在这里放置你的主体内容。
 
-想要使用此布局，你需要在页面 front matter 中设置 `home: true`。
+<div style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 20px; border-radius: 8px;">
 
-配置项的相关说明详见 [项目主页配置](https://theme-hope.vuejs.press/zh/guide/layout/home/)。
+  <h1 style="font-size: 2em; margin-bottom: 0.5em;">自由聆听音乐，从此刻开始</h1>
+  <!-- <p style="font-size: 1.2em; margin-bottom: 1em;">在这里，我们只关注能否帮你记录更多想法，打造知识川流。<br>flomo = flow + memo</p> -->
+  <a href="https://apps.apple.com/cn/app/id1614115295" style="display: inline-block; padding: 10px 20px; background-color: #F26C6D; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 1.2em; margin-top: 3em; margin-bottom: 5em;">下载体验</a>
+</div>
+
+<!-- 添加底部元素 -->
+<div style="display: flex; justify-content: space-around; padding: 20px 0; color: var(--text-color);">
+
+  <div>
+    <img src="/logo.png" alt="Logo" style="width: 100px;">
+  </div>
+
+  <div>
+    <h3>产品</h3>
+    <ul style="list-style: none; padding: 0;">
+      <li><a href="https://apps.apple.com/cn/app/id1614115295" style="color: var(--text-color);">手机端</a></li>
+      <li><a href="#privacy" style="color: var(--text-color);">隐私协议</a></li>
+      <li><a href="#terms" style="color: var(--text-color);">用户协议</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>资源</h3>
+    <ul style="list-style: none; padding: 0;">
+      <li><a href="./guide/" style="color: var(--text-color);">使用指南</a></li>
+      <li><a href="#quickstart" style="color: var(--text-color);">快速上手</a></li>
+      <li><a href="#usage" style="color: var(--text-color);">常见用法</a></li>
+      <li><a href="#mindset" style="color: var(--text-color);">思维方式</a></li>
+      <li><a href="#api" style="color: var(--text-color);">API 文档</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>联系我们</h3>
+    <ul style="list-style: none; padding: 0;">
+      <li><a href="mailto:support@example.com" style="color: var(--text-color);">Email</a></li>
+      <li><a href="#support" style="color: var(--text-color);">在线支持</a></li>
+      <li><a href="#weibo" style="color: var(--text-color);">微博</a></li>
+      <li><a href="#jike" style="color: var(--text-color);">即刻</a></li>
+      <li><a href="#xiaohongshu" style="color: var(--text-color);">小红书</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <h3>团队</h3>
+    <ul style="list-style: none; padding: 0;">
+      <li><a href="#about" style="color: var(--text-color);">关于我们</a></li>
+      <!-- <li><a href="#company" style="color: var(--text-color);">上海仙带网络科技有限公司</a></li> -->
+      <!-- <li><a href="#icp" style="color: var(--text-color);">沪ICP备17043019号-3</a></li> -->
+      <!-- <li><a href="#public-security" style="color: var(--text-color);">沪公网安备31010102007209</a></li> -->
+    </ul>
+  </div>
+
+</div>
+
+<style>
+  :root {
+    --text-color: black;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --text-color: white;
+    }
+  }
+
+  /* 根据网站设置判断暗黑模式 */
+  :root {
+    --text-color: {{ $isDarkMode ? 'white' : 'black' }};
+  }
+
+</style>
+
+<style>
+  :root {
+    --button-color: white;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --button-color: black;
+    }
+  }
+
+  /* 根据网站设置判断暗黑模式 */
+  :root {
+    --button-color: {{ $isDarkMode ? 'black' : 'white' }};
+  }
+
+</style>
