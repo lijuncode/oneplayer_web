@@ -1,1 +1,92 @@
 // place your custom styles here
+@use "@sass-palette/hope-config";
+@use "sass:color";
+@use "sass:list";
+
+.vp-hero {
+    &-info-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      // 移除min-height，使用固定的padding来控制间距
+      padding-top: 50pt;
+      padding-bottom: 50pt;
+      position: relative;
+  
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 10%;
+        right: 10%;
+        height: 1px;
+        background-color: var(--border-color);
+      }
+    }
+  
+    &-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      padding-inline: 2.5rem;
+  
+      @media (max-width: hope-config.$pad) {
+        padding-inline: 1.5rem;
+      }
+    }
+  
+    &-image {
+      order: 2;
+      max-width: 100%;
+      max-height: none;
+      // 使用固定的margin来控制间距
+      margin: 2rem auto 50pt;
+  
+      // 移除媒体查询中的margin调整
+    }
+  
+    &-title {
+      // 居中对齐
+      text-align: center;
+      margin: 0.5rem 0;
+  
+      background: linear-gradient(
+        120deg,
+        var(--theme-color-light),
+        var(--theme-color) 30%,
+        color.adjust(hope-config.$theme-color, $hue: 60deg) 100%
+      );
+      -webkit-background-clip: text;
+      background-clip: text;
+  
+      font-weight: bold;
+      font-size: 3.6rem;
+      font-family: var(--font-family);
+      line-height: 1.5;
+  
+      -webkit-text-fill-color: transparent;
+  
+      @media (max-width: hope-config.$tablet) {
+        margin: 0;
+      }
+  
+      @media (max-width: hope-config.$pad) {
+        font-size: 2.5rem;
+        text-align: center;
+      }
+  
+      @media (max-width: hope-config.$tablet) {
+        font-size: 2.25rem;
+        text-align: center;
+      }
+  
+      @media (max-width: hope-config.$mobile) {
+        margin: 0 auto;
+        font-size: 2rem;
+      }
+    }
+  }
