@@ -90,3 +90,35 @@
       }
     }
   }
+
+.vp-highlight-image {
+  width: 22rem;
+  margin: 2rem 4rem;
+
+  @media (max-width: hope-config.$pad) {
+    width: 18rem;
+  }
+
+  @media (max-width: hope-config.$tablet) {
+    width: 12rem;
+    margin: 0 auto;
+  }
+
+  &.light {
+    display: inline-block;
+  }
+
+  &.dark {
+    display: none;
+  }
+
+  #{hope-config.$dark-selector} & {
+    &.light {
+      display: none;
+    }
+
+    &.dark {
+      display: inline-block;
+    }
+  }
+}
