@@ -42,8 +42,9 @@
     &-image {
       order: 2;
       max-width: 100%;
-      height: auto; // 允许高度自动调整
-      width: 100%; // 设置宽度为100%
+    //   height: auto; // 允许高度自动调整
+      max-height: none;
+    //   width: 100%; // 设置宽度为100%
       object-fit: contain; // 保持图片比例
       // 使用固定的margin来控制间距
       margin: 2rem auto 20pt;
