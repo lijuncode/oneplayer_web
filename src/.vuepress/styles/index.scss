@@ -42,11 +42,17 @@
     &-image {
       order: 2;
       max-width: 100%;
-      max-height: none;
+      height: auto; // 允许高度自动调整
+      width: 100%; // 设置宽度为100%
+      object-fit: contain; // 保持图片比例
       // 使用固定的margin来控制间距
       margin: 2rem auto 50pt;
   
       // 移除媒体查询中的margin调整
+  
+      @media (max-width: hope-config.$mobile) {
+        max-height: 300px; // 为移动设备设置最大高度
+      }
     }
   
     &-title {
