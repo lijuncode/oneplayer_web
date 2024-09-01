@@ -361,7 +361,7 @@ footer:  版权所有 © 2019-2024 OnePlayer
 
   <h1 style="font-size: 2em; margin-bottom: 0.5em;">自由聆听音乐，从此刻开始</h1>
   <!-- <p style="font-size: 1.2em; margin-bottom: 1em;">在这里，我们只关注能否帮你记录更多想法，打造知识川流。<br>flomo = flow + memo</p> -->
-  <a href="https://apps.apple.com/cn/app/id1614115295" style="display: inline-block; padding: 10px 20px; background-color: #F26C6D; color: #ffffff; text-decoration: none; border-radius: 5px; font-size: 1.2em; margin-top: 3em; margin-bottom: 5em;">下载体验</a>
+  <a href="https://apps.apple.com/cn/app/id1614115295" style="display: inline-block; padding: 0.5em 1.5rem; background-color: var(--theme-color); color: var(--white); text-decoration: none; border-radius: 2rem; font-size: 1.2em; margin-top: 2em; margin-bottom: 5em;">下载体验</a>
 </div>
 
 <!-- 添加底部元素 -->
