@@ -3,14 +3,6 @@ home: true
 icon: home
 title: Home
 heroImage: /assets/image/oneplayer-product.png
-# heroImageStyle:
-#   width: 200px
-#   height: auto
-#   max-width: 100%
-#   border-radius: 50%
-#   box-shadow: 0 5px 18px rgba(0,0,0,0.2)
-# bgImage: /assets/image/oneplayer-product.png
-# bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
 heroText: One Player
@@ -70,6 +62,15 @@ highlights:
         details: 可以按歌名、歌手名、专辑名、导入时间、播放次数、最近播放等进行排序
       - title: 支持编辑歌曲信息
         details: 支持编辑修改歌名、歌手、专辑、封面、歌词，以及其它更多歌曲标签信息
+      - title: Ai匹配封面、自动匹配封面
+        # details: 播放管理你的所有本地音乐，显示歌名、歌手、专辑名
+
+  - header: 简洁播放页面，支持显示歌词
+    image: /assets/image/IMG_2679.png
+    highlights:
+      - title: 音乐播放控制，多种播放模式，更有多种黑胶/彩胶播放样式
+      - title: 支持显示歌曲，需要有对应的lrc歌词文件，或者歌曲文件内嵌lrc歌词
+      - title: 支持倍速播放、定时关闭
       - title: Ai匹配封面、自动匹配封面
         # details: 播放管理你的所有本地音乐，显示歌名、歌手、专辑名
 
