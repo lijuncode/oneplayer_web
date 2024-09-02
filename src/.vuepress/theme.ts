@@ -19,6 +19,7 @@ export default hopeTheme({
 
   docsDir: "src",
 
+  // 禁用外部链接图标
   externalLinkIcon: false,
 
   locales: {
