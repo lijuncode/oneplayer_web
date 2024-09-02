@@ -126,33 +126,45 @@ footer:  版权所有 © 2019-2024 OnePlayer
   <div class="user-ratings">
     <div class="rating-card">
       <div class="stars">★★★★★</div>
-      <div class="comment">很实用的软件!</div>
-      <div class="review-text">看来这个应用的开发者是从身边迫切需要的功能出发而制作的软件，解决很多日程规划的难题，也考虑到了我们生活中的不便之处，比如日程杂乱等等。相信我，这个软件我极力推荐！它一定可以给你带来全新的舒适体验。</div>
-      <div class="user-info">把树🌲爬的猴子🐒🐵</div>
+      <div class="comment">好用，简单，没有广告和多余的设置</div>
+      <div class="review-text">很苹果风格的音乐播放器，但比以前的iTunes那些好用得多。没有广告，不打扰用户，下载之后感觉还是经常在更新增加功能。点个赞。喜欢小组件的设计。</div>
+      <div class="user-info">lovelva0824</div>
     </div>
     <div class="rating-card">
       <div class="stars">★★★★★</div>
-      <div class="comment">非常好用的音乐播放器!</div>
-      <div class="review-text">界面简洁,功能强大,支持多种音频格式。导入歌曲非常方便,特别喜欢Wi-Fi传输功能。播放界面美观,歌词显示清晰。总之是一款很棒的本地音乐播放器,强烈推荐!</div>
-      <div class="user-info">音乐爱好者</div>
+      <div class="comment">No problems on this app at all.</div>
+      <div class="review-text">Really useful for my intended purpose (I download recordings and then upload them to the app, acts like a kind of “Spotify” where you can put songs in a playlist, repeat etc.) Highly recommend, no pop ups or random adverts, smooth and offline.</div>
+      <div class="user-info">Musical3475</div>
     </div>
     <div class="rating-card">
       <div class="stars">★★★★★</div>
-      <div class="comment">完美的音乐体验!</div>
-      <div class="review-text">这款播放器真的太棒了!支持高品质音频,音质非常出色。管理音乐库也很方便,可以轻松编辑歌曲信息。最喜欢的是它的简洁播放界面和歌词显示功能。绝对是音乐发烧友的必备app!</div>
-      <div class="user-info">发烧友小王</div>
+      <div class="comment">超级好用的本地音乐播放器</div>
+      <div class="review-text">页面简洁没有广告！从安卓换到苹果才知道想听个本地音乐那么难，找了好几个软件都不如这个简洁省事，可以批量导入，还可以显示歌词太好用了，付费就付费吧，还好一次买断不会很贵，如有需要的话尽快买，一直在涨价。</div>
+      <div class="user-info">冬月七</div>
     </div>
     <div class="rating-card">
       <div class="stars">★★★★★</div>
-      <div class="comment">完美的音乐体验!</div>
-      <div class="review-text">这款播放器真的太棒了!支持高品质音频,音质非常出色。管理音乐库也很方便,可以轻松编辑歌曲信息。最喜欢的是它的简洁播放界面和歌词显示功能。绝对是音乐发烧友的必备app!</div>
-      <div class="user-info">发烧友小王</div>
+      <div class="comment">完美的手表播放器</div>
+      <div class="review-text">可以导入小说mp3，用手表听小说，完美完美完美。运动的时候可以用手表播放歌曲。导入资源很简单</div>
+      <div class="user-info">qq37474</div>
     </div>
     <div class="rating-card">
       <div class="stars">★★★★★</div>
-      <div class="comment">完美的音乐体验!</div>
-      <div class="review-text">这款播放器真的太棒了!支持高品质音频,音质非常出色。管理音乐库也很方便,可以轻松编辑歌曲信息。最喜欢的是它的简洁播放界面和歌词显示功能。绝对是音乐发烧友的必备app!</div>
-      <div class="user-info">发烧友小王</div>
+      <div class="comment">The music player that I want</div>
+      <div class="review-text">Plain but functional. Able to support multi formats like most loss-less version music. F Apple Music!</div>
+      <div class="user-info">TreatHTVIPLike*</div>
+    </div>
+    <div class="rating-card">
+      <div class="stars">★★★★★</div>
+      <div class="comment">很好用</div>
+      <div class="review-text">把从lx下载的无损歌曲导入进播放器，Wi-Fi传输真是快啊。很喜欢里面的可以ai配封面，这样就不会一个黑白的图片在歌曲前面，好用，可惜现在内购高级版没有优惠，再等等。 赞一个，必须赞一下！！！</div>
+      <div class="user-info">恋随风来</div>
+    </div>
+    <div class="rating-card">
+      <div class="stars">★★★★★</div>
+      <div class="comment">苹果最好用的本地播放器</div>
+      <div class="review-text">页面设计简洁，没有广告，功能也比较多</div>
+      <div class="user-info">ldjjdjsj </div>
     </div>
   </div>
   <!-- <div class="rating-dots">
@@ -287,7 +299,6 @@ footer:  版权所有 © 2019-2024 OnePlayer
     flex-direction: column;
     align-items: center;
     margin-bottom: 2em;
-    padding: 0 20px;
   }
 
   .overall-rating {
