@@ -117,11 +117,54 @@ footer:  版权所有 © 2019-2024 OnePlayer
 
 ---
 
+<!-- 添加用户评分模块 -->
+<div class="rating-container">
+  <div class="overall-rating">
+    <div class="stars">★★★★★</div>
+    <div class="rating-text">超过 1000 个 5 星评分</div>
+  </div>
+  <div class="user-ratings">
+    <div class="rating-card">
+      <div class="stars">★★★★★</div>
+      <div class="comment">很实用的软件!</div>
+      <div class="review-text">看来这个应用的开发者是从身边迫切需要的功能出发而制作的软件，解决很多日程规划的难题，也考虑到了我们生活中的不便之处，比如日程杂乱等等。相信我，这个软件我极力推荐！它一定可以给你带来全新的舒适体验。</div>
+      <div class="user-info">把树🌲爬的猴子🐒🐵</div>
+    </div>
+    <div class="rating-card">
+      <div class="stars">★★★★★</div>
+      <div class="comment">非常好用的音乐播放器!</div>
+      <div class="review-text">界面简洁,功能强大,支持多种音频格式。导入歌曲非常方便,特别喜欢Wi-Fi传输功能。播放界面美观,歌词显示清晰。总之是一款很棒的本地音乐播放器,强烈推荐!</div>
+      <div class="user-info">音乐爱好者</div>
+    </div>
+    <div class="rating-card">
+      <div class="stars">★★★★★</div>
+      <div class="comment">完美的音乐体验!</div>
+      <div class="review-text">这款播放器真的太棒了!支持高品质音频,音质非常出色。管理音乐库也很方便,可以轻松编辑歌曲信息。最喜欢的是它的简洁播放界面和歌词显示功能。绝对是音乐发烧友的必备app!</div>
+      <div class="user-info">发烧友小王</div>
+    </div>
+    <div class="rating-card">
+      <div class="stars">★★★★★</div>
+      <div class="comment">完美的音乐体验!</div>
+      <div class="review-text">这款播放器真的太棒了!支持高品质音频,音质非常出色。管理音乐库也很方便,可以轻松编辑歌曲信息。最喜欢的是它的简洁播放界面和歌词显示功能。绝对是音乐发烧友的必备app!</div>
+      <div class="user-info">发烧友小王</div>
+    </div>
+    <div class="rating-card">
+      <div class="stars">★★★★★</div>
+      <div class="comment">完美的音乐体验!</div>
+      <div class="review-text">这款播放器真的太棒了!支持高品质音频,音质非常出色。管理音乐库也很方便,可以轻松编辑歌曲信息。最喜欢的是它的简洁播放界面和歌词显示功能。绝对是音乐发烧友的必备app!</div>
+      <div class="user-info">发烧友小王</div>
+    </div>
+  </div>
+  <!-- <div class="rating-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div> -->
+</div>
 
 <div style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 20px; border-radius: 8px;">
 
   <h1 style="font-size: 2em; margin-bottom: 0.5em;">自由聆听音乐，从此刻开始</h1>
-  <!-- <p style="font-size: 1.2em; margin-bottom: 1em;">在这里，我们只关注能否帮你记录更多想法，打造知识川流。<br>flomo = flow + memo</p> -->
   <a href="https://apps.apple.com/cn/app/id1614115295" style="display: inline-block; padding: 0.5em 1.5rem; background-color: var(--theme-color); color: var(--white); text-decoration: none; border-radius: 2rem; font-size: 1.2em; margin-top: 2em; margin-bottom: 5em;">下载体验</a>
 </div>
 
@@ -239,4 +282,95 @@ footer:  版权所有 © 2019-2024 OnePlayer
     --button-color: {{ $isDarkMode ? 'black' : 'white' }};
   }
 
+  .rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+    padding: 0 20px;
+  }
+
+  .overall-rating {
+    margin-bottom: 1em;
+    text-align: center;
+  }
+
+  .overall-rating .stars {
+    font-size: 3em;
+  }
+
+  .stars {
+    color: #FFAD2B;
+    font-size: 1.5em;
+  }
+
+  .rating-text {
+    color: var(--text-color);
+    margin-top: 0.5em;
+    font-size: 1.2em;
+  }
+
+  .user-ratings {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 1em 0;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    display: flex;
+  }
+
+  .user-ratings::-webkit-scrollbar {
+    display: none;
+  }
+
+  .rating-card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 280px;
+    width: 280px;
+    padding: 1em;
+    margin-right: 1em;
+    background-color: var(--border-color);
+    border-radius: 15px;
+    text-align: left;
+    white-space: normal;
+    word-wrap: break-word;
+  }
+
+  .comment {
+    font-weight: bold;
+    margin: 0.5em 0;
+    color: var(--text-color);
+  }
+
+  .review-text {
+    font-size: 0.9em;
+    color: var(--text-color);
+    margin-bottom: 0.5em;
+    flex-grow: 1;
+  }
+
+  .user-info {
+    font-size: 0.8em;
+    color: #8E8E93;
+  }
+
+  .rating-dots {
+    margin-top: 1em;
+  }
+
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color: #8E8E93;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 4px;
+  }
+
+  .dot.active {
+    background-color: var(--theme-color);
+  }
 </style>
