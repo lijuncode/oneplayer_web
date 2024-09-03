@@ -231,20 +231,6 @@ footer:  版权所有 © 2019-2024 OnePlayer
 </div>
 
 <style>
-  :root {
-    --text-color: black;
-  }
-
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --text-color: white;
-    }
-  }
-
-  /* 根据网站设置判断暗黑模式 */
-  :root {
-    --text-color: {{ $isDarkMode ? 'white' : 'black' }};
-  }
 
   .footer {
     display: flex;

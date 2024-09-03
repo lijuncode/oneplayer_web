@@ -98,6 +98,31 @@
     }
   }
 
+.vp-highlight {
+    z-index: 1;
+  
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+  
+    max-width: var(--home-page-width);
+    margin: 0 auto;
+    padding: 1.5rem 2.5rem;
+  
+    color: var(--text-color);
+  
+    @media (max-width: hope-config.$tablet) {
+      display: block;
+      padding-inline: 1.5rem;
+      text-align: center;
+    }
+  
+    #{hope-config.$dark-selector} & {
+      color: #eee;
+    }
+  }
+
 .vp-highlight-image {
   width: 22rem;
   margin: 2rem 4rem;
