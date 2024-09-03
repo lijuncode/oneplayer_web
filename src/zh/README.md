@@ -371,11 +371,11 @@ footer:  版权所有 © 2019-2024 OnePlayer
   }
 
   @media (max-width: 600px) {
-     .rating-container {
-      margin-left: -1.5rem; /* 抵消页面默认的左右padding */
-      margin-right: -1.5rem;
-      width: calc(100% + 3rem); /* 调整宽度以铺满屏幕 */
-    }
+     /* .rating-container { */
+      /* margin-left: -1.5rem; /* 抵消页面默认的左右padding */
+      /* margin-right: -1.5rem; */
+      /* width: calc(100% + 3rem); 调整宽度以铺满屏幕 */
+    /* } */
 
     .user-ratings {
       padding: 1em 0;
@@ -384,8 +384,8 @@ footer:  版权所有 © 2019-2024 OnePlayer
     .rating-card {
       flex: 0 0 calc(100% - 10em);
       width: calc(100% - 10em);
-      /* margin-left: 1em; */
-      margin-right: 1em;
+      margin-left: 0.5em;
+      margin-right: 0.5em;
     }
   }
 
