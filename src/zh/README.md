@@ -370,7 +370,7 @@ footer:  版权所有 © 2019-2024 OnePlayer
     background-color: var(--theme-color);
   }
 
-  @media (max-width: hope-config.$mobile) {
+  @media (max-width: 600px) {
      .rating-container {
       margin-left: -1.5rem; /* 抵消页面默认的左右padding */
       margin-right: -1.5rem;
