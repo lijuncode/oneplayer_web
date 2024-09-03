@@ -33,6 +33,8 @@
       text-align: center;
       width: 100%;
       padding-inline: 2.5rem;
+      max-width: 100%; // 添加这一行
+      box-sizing: border-box; // 添加这一行
   
       @media (max-width: hope-config.$pad) {
         padding-inline: 1.5rem;
@@ -42,7 +44,7 @@
     &-image {
       order: 2;
       max-width: 100%;
-      width: auto;
+      // width: auto;
     //   height: auto; // 允许高度自动调整
       max-height: none;
     //   width: 100%; // 设置宽度为100%
@@ -107,7 +109,7 @@
     align-items: center;
     justify-content: flex-end;
   
-    max-width: var(--home-page-width);
+    max-width: 100%;
     margin: 0 auto;
     padding: 1.5rem 2.5rem;
   
