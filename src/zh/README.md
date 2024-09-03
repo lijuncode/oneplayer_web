@@ -167,11 +167,6 @@ footer:  版权所有 © 2019-2024 OnePlayer
       <div class="user-info">ldjjdjsj </div>
     </div>
   </div>
-  <!-- <div class="rating-dots">
-    <span class="dot active"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-  </div> -->
 </div>
 
 <div style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 20px; border-radius: 8px;">
@@ -286,6 +281,7 @@ footer:  版权所有 © 2019-2024 OnePlayer
     align-items: center;
     margin-bottom: 2em;
     width: 100%;
+    padding: 0; /* 移除内边距 */
   }
 
   .overall-rating {
@@ -317,7 +313,7 @@ footer:  版权所有 © 2019-2024 OnePlayer
     scrollbar-width: none;
     -ms-overflow-style: none;
     display: flex;
-    margin: 0 -1em;
+    margin: 0; /* 移除左右边距 */
   }
 
   .user-ratings::-webkit-scrollbar {
@@ -373,4 +369,24 @@ footer:  版权所有 © 2019-2024 OnePlayer
   .dot.active {
     background-color: var(--theme-color);
   }
+
+  @media (max-width: hope-config.$mobile) {
+     .rating-container {
+      margin-left: -1.5rem; /* 抵消页面默认的左右padding */
+      margin-right: -1.5rem;
+      width: calc(100% + 3rem); /* 调整宽度以铺满屏幕 */
+    }
+
+    .user-ratings {
+      padding: 1em 0;
+    }
+
+    .rating-card {
+      flex: 0 0 calc(100% - 2em);
+      width: calc(100% - 2em);
+      margin-left: 1em;
+      margin-right: 1em;
+    }
+  }
+  
 </style>
