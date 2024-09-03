@@ -299,6 +299,7 @@ footer:  版权所有 © 2019-2024 OnePlayer
     flex-direction: column;
     align-items: center;
     margin-bottom: 2em;
+    width: 100%;
   }
 
   .overall-rating {
@@ -330,6 +331,7 @@ footer:  版权所有 © 2019-2024 OnePlayer
     scrollbar-width: none;
     -ms-overflow-style: none;
     display: flex;
+    margin: 0 -1em;
   }
 
   .user-ratings::-webkit-scrollbar {
@@ -348,6 +350,7 @@ footer:  版权所有 © 2019-2024 OnePlayer
     text-align: left;
     white-space: normal;
     word-wrap: break-word;
+    margin-left: 1em;
   }
 
   .comment {
