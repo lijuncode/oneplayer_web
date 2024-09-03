@@ -382,8 +382,8 @@ footer:  版权所有 © 2019-2024 OnePlayer
     }
 
     .rating-card {
-      flex: 0 0 calc(100% - 10em);
-      width: calc(100% - 10em);
+      flex: 0 0 calc(100% - 6em);
+      width: calc(100% - 6em);
       margin-left: 0.5em;
       margin-right: 0.5em;
     }
