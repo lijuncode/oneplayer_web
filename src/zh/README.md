@@ -121,7 +121,7 @@ highlights:
         link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
 
 copyright: false
-footer:  版权所有 © 2019-2024 OnePlayer
+footer:  版权所有 © 2022-2024 OnePlayer
 
 ---
 
