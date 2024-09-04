@@ -37,6 +37,14 @@ export default defineUserConfig({
     ]
   ],
 
+  markdown: {
+    links: {
+      externalAttrs: {
+        target: '_blank',
+        rel: 'noopener noreferrer'
+      }
+    }
+  }
   // Enable it with pwa
   // shouldPrefetch: false,
 });

@@ -263,7 +263,7 @@ footer:  版权所有 © 2019-2024 OnePlayer
 <div style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 20px; border-radius: 8px;">
 
   <h1 style="font-size: 2em; margin-bottom: 0.5em;">自由聆听音乐，从此刻开始</h1>
-  <a href="https://apps.apple.com/cn/app/id1614115295" style="display: inline-block; padding: 0.5em 1.5rem; background-color: var(--theme-color); color: var(--white); text-decoration: none; border-radius: 2rem; font-size: 1.2em; margin-top: 2em; margin-bottom: 5em;">下载体验</a>
+  <a href="https://apps.apple.com/cn/app/id1614115295"  style="display: inline-block; padding: 0.5em 1.5rem; background-color: var(--theme-color); color: var(--white); text-decoration: none; border-radius: 2rem; font-size: 1.2em; margin-top: 2em; margin-bottom: 5em;">下载体验</a>
 </div>
 
 <!-- 添加底部元素 -->
@@ -276,8 +276,8 @@ footer:  版权所有 © 2019-2024 OnePlayer
   <div>
     <h3>产品</h3>
     <ul style="list-style: none; padding: 0;">
-      <li><a href="https://apps.apple.com/cn/app/id1614115295" style="color: var(--text-color);">手机端</a></li>
-      <li><a href="https://apps.apple.com/cn/app/id1614115295" style="color: var(--text-color);">watch端</a></li>
+      <li><a href="https://apps.apple.com/cn/app/id1614115295" target="_blank" style="color: var(--text-color);">手机端</a></li>
+      <li><a href="https://apps.apple.com/cn/app/id1614115295" target="_blank" style="color: var(--text-color);">watch端</a></li>
     </ul>
   </div>
 
@@ -293,8 +293,8 @@ footer:  版权所有 © 2019-2024 OnePlayer
     <h3>联系我们</h3>
     <ul style="list-style: none; padding: 0;">
       <li><a href="mailto:oneplayer_app@outlook.com" style="color: var(--text-color);">Email</a></li>
-      <li><a href="https://work.weixin.qq.com/kfid/kfccae610ba3adaa782" style="color: var(--text-color);">在线支持</a></li>
-      <li><a href="https://www.xiaohongshu.com/user/profile/5dd39d2400000000010044d2" style="color: var(--text-color);">小红书</a></li>
+      <li><a href="https://work.weixin.qq.com/kfid/kfccae610ba3adaa782" target="_blank" style="color: var(--text-color);">在线支持</a></li>
+      <li><a href="https://www.xiaohongshu.com/user/profile/5dd39d2400000000010044d2" target="_blank" style="color: var(--text-color);">小红书</a></li>
     </ul>
   </div>
 

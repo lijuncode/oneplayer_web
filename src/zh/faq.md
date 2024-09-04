@@ -58,6 +58,6 @@ App支持多种导入方式：wifi导入、文件导入、AirDrop导入、扫描
 
 可以通过下面的方式联系我们：
 
-[联系我们｜Contact](https://www.notion.so/Contact-61e073fcf8d24f71b4d2289f1a13178d?pvs=21)
+[联系我们｜Contact](https://www.notion.so/Contact-61e073fcf8d24f71b4d2289f1a13178d?pvs=21){target="_blank"}
 
-[点击咨询微信客服](https://work.weixin.qq.com/kfid/kfccae610ba3adaa782)
+[点击咨询微信客服](https://work.weixin.qq.com/kfid/kfccae610ba3adaa782){target="_blank"}
