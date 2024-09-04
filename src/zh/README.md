@@ -73,7 +73,15 @@ highlights:
       - title: 支持倍速播放、定时关闭
       - title: Ai匹配封面、自动匹配封面
         # details: 播放管理你的所有本地音乐，显示歌名、歌手、专辑名
-
+  - header: 精美小组件
+    image: /assets/image/IMG_2677.png
+    highlights:
+      - title: iPod小组件
+      - title: CD播放机小组件
+      - title: 歌词小组件
+      - title: 小组件中支持控制音乐播放
+      - title: 已适配iOS 17，小组件支持可交互
+      
   - header: 更多功能
     image: /assets/image/features.svg
     features:
@@ -117,7 +125,90 @@ footer:  版权所有 © 2019-2024 OnePlayer
 
 ---
 
-<!-- 添加用户评分模块 -->
+<!-- 在评分模块前添加 FAQ 部分 -->
+<div class="faq-section">
+  <h2>常见问题</h2>
+
+  <details>
+    <summary>1. 如何导入歌曲？</summary>
+    <p>App支持多种导入方式：wifi导入、文件导入、AirDrop导入、扫描导入系统本地音乐库。详细方法可查看<a href="/zh/guide/import/">导入指南</a>。</p>
+  </details>
+
+  <details>
+    <summary>2. wifi导入网址打不开，怎么办？</summary>
+    <ul>
+      <li>先检查手机和电脑是否链接到了同一个wifi网络</li>
+      <li>手机和电脑是否有开启vpn或代理，有的话关掉</li>
+      <li>检查电脑上输入的网址是否正确的</li>
+      <li>检查手机是否退出了导入页面，是否切换到其它app，是否锁屏了</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>3. 如何导入歌词？</summary>
+    <ul>
+      <li>先从网络上下载歌曲的lrc格式的歌词文件</li>
+      <li>把lrc歌词文件改名和歌曲文件同名</li>
+      <li>然后把歌词文件导入app里，注意需要和歌曲文件在同一个文件目录中</li>
+      <li>歌词功能是付费的高级功能，需要升级到高级版才能使用</li>
+    </ul>
+  </details>
+
+  <details>
+    <summary>4. 支持在线匹配歌词吗？</summary>
+    <p>目前还不支持，后续会进行调研，可行的话会支持。</p>
+  </details>
+
+  <details>
+    <summary>5. 会支持网盘功能吗？</summary>
+    <p>会支持。</p>
+  </details>
+
+  <a href="faq" class="more-faq">查看更多常见问题 →</a>
+</div>
+
+<style>
+.faq-section {
+  margin-bottom: 2em;
+  padding: 1em;
+  background-color: var(--bg-color);
+  border-radius: 8px;
+}
+
+.faq-section h2 {
+  margin-bottom: 1em;
+}
+
+.faq-section details {
+  margin-bottom: 1em;
+  padding: 1em;
+  background-color: var(--bg-color-secondary);
+  border-radius: 8px;
+}
+
+.faq-section summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.faq-section summary:hover {
+  color: var(--theme-color);
+}
+
+.more-faq {
+  display: inline-block;
+  margin-top: 1em;
+  color: var(--theme-color);
+  text-decoration: none;
+}
+
+.more-faq:hover {
+  text-decoration: underline;
+}
+</style>
+
+<!-- 评分模块保持不变 -->
 <div class="rating-container">
   <div class="overall-rating">
     <div class="stars">★★★★★</div>
@@ -133,7 +224,7 @@ footer:  版权所有 © 2019-2024 OnePlayer
     <div class="rating-card">
       <div class="stars">★★★★★</div>
       <div class="comment">No problems on this app at all.</div>
-      <div class="review-text">Really useful for my intended purpose (I download recordings and then upload them to the app, acts like a kind of “Spotify” where you can put songs in a playlist, repeat etc.) Highly recommend, no pop ups or random adverts, smooth and offline.</div>
+      <div class="review-text">Really useful for my intended purpose (I download recordings and then upload them to the app, acts like a kind of "Spotify" where you can put songs in a playlist, repeat etc.) Highly recommend, no pop ups or random adverts, smooth and offline.</div>
       <div class="user-info">Musical3475</div>
     </div>
     <div class="rating-card">
