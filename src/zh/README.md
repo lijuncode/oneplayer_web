@@ -277,8 +277,7 @@ footer:  版权所有 © 2019-2024 OnePlayer
     <h3>产品</h3>
     <ul style="list-style: none; padding: 0;">
       <li><a href="https://apps.apple.com/cn/app/id1614115295" style="color: var(--text-color);">手机端</a></li>
-      <li><a href="#privacy" style="color: var(--text-color);">隐私协议</a></li>
-      <li><a href="#terms" style="color: var(--text-color);">用户协议</a></li>
+      <li><a href="https://apps.apple.com/cn/app/id1614115295" style="color: var(--text-color);">watch端</a></li>
     </ul>
   </div>
 
@@ -286,21 +285,16 @@ footer:  版权所有 © 2019-2024 OnePlayer
     <h3>资源</h3>
     <ul style="list-style: none; padding: 0;">
       <li><a href="./guide/" style="color: var(--text-color);">使用指南</a></li>
-      <li><a href="#quickstart" style="color: var(--text-color);">快速上手</a></li>
-      <li><a href="#usage" style="color: var(--text-color);">常见用法</a></li>
-      <li><a href="#mindset" style="color: var(--text-color);">思维方式</a></li>
-      <li><a href="#api" style="color: var(--text-color);">API 文档</a></li>
+      <li><a href="faq.md" style="color: var(--text-color);">常见问题</a></li>
     </ul>
   </div>
 
   <div>
     <h3>联系我们</h3>
     <ul style="list-style: none; padding: 0;">
-      <li><a href="mailto:support@example.com" style="color: var(--text-color);">Email</a></li>
-      <li><a href="#support" style="color: var(--text-color);">在线支持</a></li>
-      <li><a href="#weibo" style="color: var(--text-color);">微博</a></li>
-      <li><a href="#jike" style="color: var(--text-color);">即刻</a></li>
-      <li><a href="#xiaohongshu" style="color: var(--text-color);">小红书</a></li>
+      <li><a href="mailto:oneplayer_app@outlook.com" style="color: var(--text-color);">Email</a></li>
+      <li><a href="https://work.weixin.qq.com/kfid/kfccae610ba3adaa782" style="color: var(--text-color);">在线支持</a></li>
+      <li><a href="https://www.xiaohongshu.com/user/profile/5dd39d2400000000010044d2" style="color: var(--text-color);">小红书</a></li>
     </ul>
   </div>
 
@@ -308,6 +302,8 @@ footer:  版权所有 © 2019-2024 OnePlayer
     <h3>团队</h3>
     <ul style="list-style: none; padding: 0;">
       <li><a href="#about" style="color: var(--text-color);">关于我们</a></li>
+      <li><a href="#privacy" style="color: var(--text-color);">隐私协议</a></li>
+      <li><a href="#terms" style="color: var(--text-color);">用户协议</a></li>
       <!-- <li><a href="#company" style="color: var(--text-color);">上海仙带网络科技有限公司</a></li> -->
       <!-- <li><a href="#icp" style="color: var(--text-color);">沪ICP备17043019号-3</a></li> -->
       <!-- <li><a href="#public-security" style="color: var(--text-color);">沪公网安备31010102007209</a></li> -->
