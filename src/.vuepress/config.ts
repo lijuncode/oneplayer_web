@@ -21,6 +21,22 @@ export default defineUserConfig({
 
   theme,
 
+  // 添加自动语言检测
+  head: [
+    [
+      'script',
+      {},
+      `
+      (function() {
+        var userLang = navigator.language || navigator.userLanguage;
+        if (userLang.indexOf('zh') === 0 && location.pathname === '/') {
+          location.pathname = '/zh/';
+        }
+      })();
+      `
+    ]
+  ],
+
   // Enable it with pwa
   // shouldPrefetch: false,
 });
