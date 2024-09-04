@@ -1,5 +1,6 @@
 ---
-title: FAQ 常见问题
+title: 常见问题
+icon: "circle-question"
 order: 2
 category:
   - 使用指南

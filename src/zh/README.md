@@ -164,7 +164,7 @@ footer:  版权所有 © 2019-2024 OnePlayer
     <p>会支持。</p>
   </details>
 
-  <a href="faq" class="more-faq">查看更多常见问题 →</a>
+  <a href="/zh/faq/" class="more-faq">查看更多常见问题 →</a>
 </div>
 
 <style>
