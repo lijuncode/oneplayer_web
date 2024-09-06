@@ -169,14 +169,17 @@ footer:  版权所有 © 2022-2024 OnePlayer
 
 <style>
 .faq-section {
-  margin-bottom: 2em;
+  margin: 2em auto; /* 修改这里，添加auto以居中 */
   padding: 1em;
   background-color: var(--bg-color);
   border-radius: 8px;
+  max-width: 800px; /* 添加最大宽度 */
+  text-align: left; /* 确保文本左对齐 */
 }
 
 .faq-section h2 {
   margin-bottom: 1em;
+  text-align: center; /* 标题居中 */
 }
 
 .faq-section details {
@@ -197,10 +200,11 @@ footer:  版权所有 © 2022-2024 OnePlayer
 }
 
 .more-faq {
-  display: inline-block;
+  display: block; /* 改为块级元素 */
   margin-top: 1em;
   color: var(--theme-color);
   text-decoration: none;
+  text-align: center; /* 居中显示 */
 }
 
 .more-faq:hover {
