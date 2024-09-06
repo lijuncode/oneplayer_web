@@ -18,5 +18,12 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
     "faq",
+    {
+      text: "音频百科",
+      icon: "music",
+      prefix: "audio-encyclopedia/",
+      link: "audio-encyclopedia/",
+      children: "structure",
+    },
   ],
 });
