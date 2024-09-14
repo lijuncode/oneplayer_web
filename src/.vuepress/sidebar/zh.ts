@@ -25,5 +25,12 @@ export const zhSidebar = sidebar({
       link: "audio-encyclopedia/",
       children: "structure",
     },
+    {
+      text: "关于我们",
+      icon: "user-group",
+      prefix: "about/",
+      link: "about/",
+      children: "structure",
+    },
   ],
 });

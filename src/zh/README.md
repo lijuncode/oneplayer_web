@@ -305,9 +305,9 @@ footer:  版权所有 © 2022-2024 OnePlayer
   <div>
     <h3>团队</h3>
     <ul style="list-style: none; padding: 0;">
-      <li><a href="#about" style="color: var(--text-color);">关于我们</a></li>
-      <li><a href="#privacy" style="color: var(--text-color);">隐私协议</a></li>
-      <li><a href="#terms" style="color: var(--text-color);">用户协议</a></li>
+      <li><a href="./about/about-us" style="color: var(--text-color);">关于我们</a></li>
+      <li><a href="./about/pricacy" style="color: var(--text-color);">隐私协议</a></li>
+      <li><a href="./about/terms" style="color: var(--text-color);">用户协议</a></li>
       <!-- <li><a href="#company" style="color: var(--text-color);">上海仙带网络科技有限公司</a></li> -->
       <!-- <li><a href="#icp" style="color: var(--text-color);">沪ICP备17043019号-3</a></li> -->
       <!-- <li><a href="#public-security" style="color: var(--text-color);">沪公网安备31010102007209</a></li> -->
